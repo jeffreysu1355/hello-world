@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS</title>
+</head>
+<body>
+  <h1>Memes</h1>
+  <p id="test">js changes html content</p>
+  <button onclick="document.getElementById('test').innerHTML = 'html updated'">click for memes</button>
+  <hr>
+  <button onclick = "document.getElementById('onImage').src = 'http://i.imgur.com/2IRs7Bs.gif'">on</button>
+  <img id = "onImage" src = 'http://i.imgur.com/8kGmXwB.png' />
+  <button onclick = "document.getElementById('onImage').src = 'http://i.imgur.com/8kGmXwB.png'"> off</button>
+  
+  <form action="somescript.php" method="post">
+
+	<p>Name:</p>
+	<p><input name="name" value="Your name"></p>
+
+	<p>Comments: </p>
+	<p><textarea rows="10" cols="20" name="comments">Your comments</textarea></p>
+	<p><input type="submit"></p>
+
+	</form>
+
+
+
+  </body>
+</html>
